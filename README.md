@@ -3,6 +3,8 @@
 This application takes a .html file as input, parses `table` content and generates a .md file in the given path by the user.
 this application also supports italic, bold and italic-bold formats.
 
+## Dependencies:
+Maven and Java has to be installed
 
 ## instructions to run the application
 Run below command to generate the jar:
