@@ -3,15 +3,22 @@ package com.msft.textconvertors.TextConvertors;
 import java.util.List;
 
 /**
- * Description.
- * @author Your Name
+ * Table record represent the entire row of the data.
+ * @author Pavani Gorantla
  */
 public class TableRecord {
-    List<String> records;
+    private final List<Record> records;
+    /**
+     * @return the records.
+     */
+    public List<Record> getRecords() {
+        return records;
+    }
     /**
      *
      */
-    public TableRecord(final List<String> records) {
+    public TableRecord(final List<Record> records) {
         this.records = records;
     }
+
 }
