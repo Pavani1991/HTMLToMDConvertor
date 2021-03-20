@@ -8,12 +8,12 @@ Maven and Java has to be installed
 
 ## instructions to run the application
 Run below command to generate the jar:
-`mvn clean install`
+### `mvn clean install`
 
 To parse the file from HTML to MD run below command: 
-`java -jar target/HTMLToMIDConvertor-0.0.1-SNAPSHOT.jar src/main/resources resource.html`
+### `java -jar target/HTMLToMIDConvertor-0.0.1-SNAPSHOT.jar src/main/resources resource.html`
 
 This will generate the new file in resource.md in src/main/resources
 
 To run only Test files run command:
-`mvn surefire:test`
+### `mvn surefire:test`
