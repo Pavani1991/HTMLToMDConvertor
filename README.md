@@ -17,3 +17,6 @@ This will generate the new file in resource.md in src/main/resources
 
 To run only Test files run command:
 ### `mvn surefire:test`
+
+## Loom Link
+### `https://www.loom.com/share/47e27020695d4b3d95600fe3ff04d727`
